@@ -4,8 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest --watchAll",
-		"test2": "jest --detectOpenHandles"
+		"test": "jest --watchAll --detectOpenHandles --forceExit"
 	},
 	"keywords": [],
 	"author": "",
